@@ -3,7 +3,7 @@ import Link from "next/link";
 import introData from "../../data/sections/intro.json";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import SwiperCore, { Navigation, Pagination, Parallax } from "swiper";
+import SwiperCore, { Navigation, Pagination, Parallax, Autoplay } from "swiper";
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -45,6 +45,10 @@ const IntroWithSlider = ({ sliderRef }) => {
               type: "fraction",
               clickable: true,
               el: paginationRef.current,
+            }}
+            autoplay={{
+              delay: 3000, // 3 seconds delay
+              disableOnInteraction: false,
             }}
             onBeforeInit={(swiper) => {
               swiper.params.navigation.prevEl = navigationPrevRef.current;
