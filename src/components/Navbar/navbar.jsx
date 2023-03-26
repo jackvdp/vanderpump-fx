@@ -58,7 +58,7 @@ const Navbar = ({ lr, nr, theme }) => {
             {/* Open an Account */}
 
             <li className="nav-item">
-              <Link href={`/account`}>
+              <Link href={`https://vanderpumpfx.equalsconnect.com/account/open`}>
                 <a className="nav-link">Open an Account</a>
               </Link>
             </li>

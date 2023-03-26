@@ -47,7 +47,52 @@ const VideoWithTestimonials = () => {
                 >
                   <div className="item">
                     <p>
-                    Vanderpump FX provided us with exceptional service and competitive rates, making our international transactions stress-free and cost-effective..
+                    Working with Sam at Vanderpump is  an absolute joy.His attention to detail and professional approach make trades that would have appeared complex rather easy.I have enjoyed doing business with Sam for five years.
+                    </p>
+                    <div>
+                      <div className="cont">
+                        <div className="author">
+                          <h6 className="author-name ">Fahad Katergga</h6>
+                          <span className="author-details">
+                            Acountant, Faberge
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="item">
+                    <p>
+                    Having worked with Vanderpump FX for years, we wouldn’t go anywhere else for the FX requirements of our lending business. We use Vanderpump FX to disburse loans to our clients in EUR and USD in many countries around the world. The service is always fast and personal, and over the years we’ve saved a small fortune by not making these transactions through our bank as we were before.
+                    </p>
+                    <div>
+                      <div className="cont">
+                        <div className="author">
+                          <h6 className="author-name ">Aamar Aslam</h6>
+                          <span className="author-details">
+                            CEO, Funding Invoice
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="item">
+                    <p>
+                    Vanderpump have been a true asset to our firm with all things currency related. Credible, insightful and trustworthy. I would highly recommend Sam and his team. They have been fantastic!
+                    </p>
+                    <div>
+                      <div className="cont">
+                        <div className="author">
+                          <h6 className="author-name ">Shak Rahim-Bux</h6>
+                          <span className="author-details">
+                            Director, Windsor Bux
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="item">
+                    <p>
+                    Vanderpump FX provided us with exceptional service and competitive rates, making our international transactions stress-free and cost-effective.
                     </p>
                     <div>
                       <div className="cont">
