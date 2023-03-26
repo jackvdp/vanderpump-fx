@@ -1,11 +1,11 @@
 {
   "id": 1,
   "smallTitle": "About Us",
-  "title": "Our Comapny",
-  "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.",
-  "image": "/img/feat.jpg",
+  "title": "Vanderpump FX",
+  "content": "Welcome to Vanderpump FX, the leading currency exchange brokerage based in London, offering bespoke currency solutions to clients across various sectors. Our primary objective is to deliver the best exchange rates and exceptional service to our clients by understanding their unique requirements and tailoring our services to meet their specific needs.",
+  "image": "/img/fxtrading.jpeg",
   "stauts": [
     { "id": 1, "number": "3", "letter": "K", "stautsName": "Happy Clients" },
-    { "id": 2, "number": "14", "letter": "K", "stautsName": "Success Projects" }
+    { "id": 2, "number": "+1", "letter": "M", "stautsName": "Successful Trades" }
   ]
 }

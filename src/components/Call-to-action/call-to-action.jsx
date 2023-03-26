@@ -17,7 +17,7 @@ const CallToAction = ({img}) => {
                     Let’s Talk
                   </h6>
                   <h2 className="wow words chars splitting" data-splitting>
-                    about your <br /> <b className="back-color">next project</b>
+                    about your <br /> <b className="back-color">foreign exchange</b>
                     .
                   </h2>
                 </Split>
@@ -26,7 +26,7 @@ const CallToAction = ({img}) => {
 
             <div className="col-md-4 col-lg-3 valign">
               <Link
-                href={`/contact/contact-dark`}
+                href={`/contact`}
               >
                 <a
                   className="butn bord curve wow fadeInUp"

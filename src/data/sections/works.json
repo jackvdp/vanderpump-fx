@@ -1,37 +1,30 @@
 [
   {
     "id": 1,
-    "title": "art & illustration",
-    "secTex": "Innovation and Crafts",
-    "image": "/img/portfolio/metro/01.jpg",
+    "title": "FX Trading",
+    "secTex": "Spot Trades",
+    "image": "/img/spottrades.jpeg",
     "slug": "/project-details2/project-details2-dark"
   },
   {
     "id": 2,
-    "title": "art & illustration",
-    "secTex": "Inspiring new space",
-    "image": "/img/portfolio/metro/02.jpg",
+    "title": "FX Trading",
+    "secTex": "Market Orders",
+    "image": "/img/marketorders.jpeg",
     "slug": "/project-details2/project-details2-dark"
   },
   {
     "id": 3,
-    "title": "art & illustration",
-    "secTex": "Natural plus modern",
-    "image": "/img/portfolio/metro/03.jpg",
+    "title": "FX Trading",
+    "secTex": "Forwards",
+    "image": "/img/forwards.jpeg",
     "slug": "/project-details2/project-details2-dark"
   },
   {
     "id": 4,
-    "title": "art & illustration",
-    "secTex": "Innovation and Crafts",
-    "image": "/img/portfolio/metro/04.jpg",
-    "slug": "/project-details2/project-details2-dark"
-  },
-  {
-    "id": 5,
-    "title": "art & illustration",
-    "secTex": "Natural plus modern",
-    "image": "/img/portfolio/metro/05.jpg",
+    "title": "FX Trading",
+    "secTex": "Timing of Trades",
+    "image": "/img/timingtrades.jpeg",
     "slug": "/project-details2/project-details2-dark"
   }
 ]

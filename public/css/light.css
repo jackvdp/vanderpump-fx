@@ -155,8 +155,8 @@ span:hover {
     linear,
     left top,
     right top,
-    from(#12c2e9),
-    color-stop(#c471ed),
+    from(#ffffff),
+    color-stop(#ffffff),
     to(#f64f59)
   );
   background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
@@ -1926,7 +1926,7 @@ body {
 }
 
 .navbar .logo {
-  width: 50px;
+  width: 180px;
 }
 
 .nav-scroll {

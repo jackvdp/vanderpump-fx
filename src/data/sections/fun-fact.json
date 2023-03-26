@@ -1,19 +1,19 @@
 [{
     "id": 1,
-    "icon": "pe-7s-smile",
-    "content": "People who are commited to their management tasks.",
-    "value": "2400"
+    "icon": "pe-7s-portfolio",
+    "content": "Countries served with swift and seamless international payments.",
+    "value": "200"
 },
 {
     "id": 2,
-    "icon": "pe-7s-portfolio",
-    "content": "Signed projects that have been confirmed complete!",
-    "value": "133"
+    "icon": "pe-7s-smile",
+    "content": "People and organisations who have traded repeatedly.",
+    "value": "2400"
 },
 {
     "id": 3,
-    "icon": "pe-7s-medal",
-    "content": "International awards and cups for design projects.",
+    "icon": "pe-7s-cash",
+    "content": "Currencies supported to accommodate global clients.",
     "value": "46"
 }
 ]

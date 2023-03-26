@@ -1,50 +1,42 @@
 [
     {
         "id": 1,
-        "lightImage": "/img/clients/brands/light/01.png",
-        "darkImage": "/img/clients/brands/dark/01.png",
-        "url": "www.Vie.com"
+        "darkImage": "/img/clients/faberge.png",
+        "url": "faberge.com"
     },
     {
         "id": 2,
-        "lightImage": "/img/clients/brands/light/02.png",
-        "darkImage": "/img/clients/brands/dark/02.png",
-        "url": "www.Vie.com"
+        "darkImage": "/img/clients/axendo.png",
+        "url": "axendo.co"
     },
     {
         "id": 3,
-        "lightImage": "/img/clients/brands/light/03.png",
-        "darkImage": "/img/clients/brands/dark/03.png",
-        "url": "www.Vie.com"
+        "darkImage": "/img/clients/dnd.png",
+        "url": "dndf.business"
     },
     {
         "id": 4,
-        "lightImage": "/img/clients/brands/light/04.png",
-        "darkImage": "/img/clients/brands/dark/04.png",
-        "url": "www.Vie.com"
+        "darkImage": "/img/clients/bulb.png",
+        "url": "bulb.co.uk"
     },
     {
         "id": 5,
-        "lightImage": "/img/clients/brands/light/05.png",
-        "darkImage": "/img/clients/brands/dark/05.png",
-        "url": "www.Vie.com"
+        "darkImage": "/img/clients/taxicode.png",
+        "url": "taxicode.com"
     },
     {
         "id": 6,
-        "lightImage": "/img/clients/brands/light/06.png",
-        "darkImage": "/img/clients/brands/dark/06.png",
-        "url": "www.Vie.com"
+        "darkImage": "/img/clients/fundinginvoice.png",
+        "url": "fundinginvoice.com"
     },
     {
         "id": 7,
-        "lightImage": "/img/clients/brands/light/07.png",
-        "darkImage": "/img/clients/brands/dark/07.png",
-        "url": "www.Vie.com"
+        "darkImage": "/img/clients/etag.png",
+        "url": "etagfixings.co.uk"
     },
     {
         "id": 8,
-        "lightImage": "/img/clients/brands/light/08.png",
-        "darkImage": "/img/clients/brands/dark/08.png",
-        "url": "www.Vie.com"
+        "darkImage": "/img/clients/gemfields.png",
+        "url": "gemfields.com"
     }
 ]

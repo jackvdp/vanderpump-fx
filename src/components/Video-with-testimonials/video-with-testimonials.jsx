@@ -3,7 +3,6 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import ModalVideo from "react-modal-video";
 import "react-modal-video/css/modal-video.css";
 
 const VideoWithTestimonials = () => {
@@ -23,38 +22,13 @@ const VideoWithTestimonials = () => {
     <section className="block-sec">
       <div
         className="background bg-img pt-100 pb-0 parallaxie"
-        style={{ backgroundImage: `url(/img/bg-vid.jpg)` }}
+        style={{ backgroundImage: `url(/img/clients.jpeg)` }}
         data-overlay-dark="5"
       >
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
-              <div className="vid-area">
-                <span className="text">Watch Video</span>
-                <div className="vid-icon">
-                  {typeof window !== "undefined" && (
-                    <ModalVideo
-                      channel="vimeo"
-                      isOpen={isOpen}
-                      videoId="127203262"
-                      onClose={() => setOpen(false)}
-                    />
-                  )}
-                  <a
-                    className="vid"
-                    onClick={(e) => {
-                      e.preventDefault();
-                      setOpen(true);
-                    }}
-                  >
-                    <div className="vid-butn">
-                      <span className="icon">
-                        <i className="fas fa-play"></i>
-                      </span>
-                    </div>
-                  </a>
-                </div>
-              </div>
+              
             </div>
             <div className="col-lg-5 offset-lg-1">
               <div className="testim-box">
@@ -73,21 +47,14 @@ const VideoWithTestimonials = () => {
                 >
                   <div className="item">
                     <p>
-                      Nulla metus metus ullamcorper vel tincidunt sed euismod
-                      nibh volutpat velit class aptent taciti sociosqu ad
-                      litora.
+                    Vanderpump FX provided us with exceptional service and competitive rates, making our international transactions stress-free and cost-effective..
                     </p>
-                    <div className="info">
-                      <div className="img">
-                        <div className="img-box">
-                          <img src="/img/clients/1.jpg" alt="" />
-                        </div>
-                      </div>
+                    <div>
                       <div className="cont">
                         <div className="author">
-                          <h6 className="author-name ">Alex Regelman</h6>
+                          <h6 className="author-name ">Bill Dost</h6>
                           <span className="author-details">
-                            Co-founder, Colabrio
+                            CEO, D&D
                           </span>
                         </div>
                       </div>
@@ -95,21 +62,14 @@ const VideoWithTestimonials = () => {
                   </div>
                   <div className="item">
                     <p>
-                      Nulla metus metus ullamcorper vel tincidunt sed euismod
-                      nibh volutpat velit class aptent taciti sociosqu ad
-                      litora.
+                    Efficient, reliable, and professional - Vanderpump FX has consistently exceeded our expectations with their bespoke currency exchange solutions.
                     </p>
-                    <div className="info">
-                      <div className="img">
-                        <div className="img-box">
-                          <img src="/img/clients/2.jpg" alt="" />
-                        </div>
-                      </div>
+                    <div>
                       <div className="cont">
                         <div className="author">
-                          <h6 className="author-name ">Alex Regelman</h6>
+                          <h6 className="author-name ">Chris Benyayer</h6>
                           <span className="author-details">
-                            Co-founder, Colabrio
+                            Founder, Hooman Life
                           </span>
                         </div>
                       </div>
@@ -117,21 +77,14 @@ const VideoWithTestimonials = () => {
                   </div>
                   <div className="item">
                     <p>
-                      Nulla metus metus ullamcorper vel tincidunt sed euismod
-                      nibh volutpat velit class aptent taciti sociosqu ad
-                      litora.
+                    The dedicated account manager at Vanderpump FX guided us through the currency hedging process, ensuring we made informed decisions to protect our investments.
                     </p>
-                    <div className="info">
-                      <div className="img">
-                        <div className="img-box">
-                          <img src="/img/clients/3.jpg" alt="" />
-                        </div>
-                      </div>
+                    <div>
                       <div className="cont">
                         <div className="author">
-                          <h6 className="author-name ">Alex Regelman</h6>
+                          <h6 className="author-name ">Jonathan Kettle</h6>
                           <span className="author-details">
-                            Co-founder, Colabrio
+                            Owner, Taxi Code
                           </span>
                         </div>
                       </div>

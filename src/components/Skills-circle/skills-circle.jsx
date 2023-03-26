@@ -31,15 +31,15 @@ const SkillsCircle = ({ from, theme }) => {
                   <div className="item wow fadeInLeft" data-wow-delay=".6">
                     <div className="skill">
                       <CircularProgressbar
-                        value={90}
+                        value={98}
                         strokeWidth={2}
-                        text={`${90}%`}
+                        text={`${98}%`}
                         styles={cpStyle}
                       />
                     </div>
                     <div className="cont">
-                      <span>Project</span>
-                      <h6>Consulting</h6>
+                      <h6>Customer</h6>
+                      <h6>Retention</h6>
                     </div>
                   </div>
                 </div>
@@ -54,8 +54,8 @@ const SkillsCircle = ({ from, theme }) => {
                       />
                     </div>
                     <div className="cont">
-                      <span>App</span>
-                      <h6>Development</h6>
+                      <h6>Faster</h6>
+                      <h6>Processing Time</h6>
                     </div>
                   </div>
                 </div>

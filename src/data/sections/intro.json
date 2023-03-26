@@ -1,20 +1,20 @@
 [
     {
         "id": 1,
-        "title": "Original Solutions",
-        "content": "If you need to redesign your new project, new visual strategy, ux structure or you do have some cool ideas for collaboration.",
-        "image": "/img/slid/02.jpg"
+        "title": "Bespoke Currency Solutions",
+        "content": "Vanderpump FX specializes in tailored currency exchange services, adapting to each client's unique needs across diverse sectors.",
+        "image": "/img/cityskyline.jpeg"
     },
     {
         "id": 2,
-        "title": "Digital Design Awards",
-        "content": "If you need to redesign your new project, new visual strategy, ux structure or you do have some cool ideas for collaboration.",
-        "image": "/img/slid/03.jpg"
+        "title": "Comprehensive FX Offerings",
+        "content": "Our services range from spot transactions to risk management and full-scale currency hedging, ensuring favorable rates and informed decisions.",
+        "image": "/img/citygraph.jpeg"
     },
     {
         "id": 3,
-        "title": "Business value through digital products",
-        "content": "",
-        "image": "/img/slid/01.jpg"
+        "title": "Trusted Industry Expertise",
+        "content": "Our experienced team serves prestigious clients across jewelry, utilities, and property sectors, ensuring reliable and cost-effective solutions.",
+        "image": "/img/teamtrading.jpeg"
     }
 ]

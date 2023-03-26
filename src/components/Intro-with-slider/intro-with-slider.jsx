@@ -88,11 +88,11 @@ const IntroWithSlider = ({ sliderRef }) => {
                     <div className="row justify-content-center">
                       <div className="col-lg-8 col-md-10">
                         <div className="caption center mt-30">
-                          <h1 className="color-font">{slide.title}</h1>
+                          <h1>{slide.title}</h1>
                           {slide?.content && <p>{slide.content}</p>}
-                          <Link href="/about/about-dark">
+                          <Link href="/fx-services">
                             <a className="butn bord curve mt-30">
-                              <span>Look More</span>
+                              <span>Learn More</span>
                             </a>
                           </Link>
                         </div>
@@ -122,16 +122,7 @@ const IntroWithSlider = ({ sliderRef }) => {
 
         <div className="social-icon">
           <a href="#0">
-            <i className="fab fa-facebook-f"></i>
-          </a>
-          <a href="#0">
-            <i className="fab fa-twitter"></i>
-          </a>
-          <a href="#0">
-            <i className="fab fa-behance"></i>
-          </a>
-          <a href="#0">
-            <i className="fab fa-pinterest-p"></i>
+            <i className="fab fa-linkedin"></i>
           </a>
         </div>
       </div>

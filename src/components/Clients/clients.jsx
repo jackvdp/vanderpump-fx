@@ -13,12 +13,11 @@ const Clients = ({theme}) => {
           <div className="col-lg-4 valign md-mb50">
             <div className="sec-head mb-0">
               <h6 className="wow fadeIn" data-wow-delay=".5s">
-                Best Features
+                Partners
               </h6>
               <h3 className="wow mb-20 color-font">Our Clients</h3>
               <p>
-                Our area of practice is quite wide: design, graphics, branding,
-                development.
+              Showcasing Success: Strengthening Client Partnerships Worldwide.
               </p>
             </div>
           </div>
@@ -49,7 +48,9 @@ const Clients = ({theme}) => {
                         )}
                         <Split>
                           <a
-                            href="#0"
+                            href={"https://www." + item.url}
+                            target="_blank" 
+                            rel="noopener noreferrer"
                             className="link words chars splitting"
                             data-splitting
                           >

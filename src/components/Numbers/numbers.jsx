@@ -16,10 +16,10 @@ const Numbers = () => {
             <div className="col-lg-8 col-md-10">
               <div className="sec-head  text-center">
                 <h6 className="wow fadeIn" data-wow-delay=".5s">
-                  FUN FACTS
+                  FACTS
                 </h6>
                 <h3 className="wow color-font">
-                  Pleasure in the job puts perfection in the work.
+                Effortlessly Simplifying Your Currency Exchange Experience.
                 </h3>
               </div>
             </div>

@@ -15,17 +15,10 @@ const Navbar = ({ lr, nr, theme }) => {
       <div className="container">
 
         <Link href="/">
-          <a>
-            {theme ? (
-              theme === "themeL" ? (
-                <img ref={lr} src={appData.darkLogo} alt="logo" width={100} height={26}/>
-              ) : (
-                <img ref={lr} src={appData.lightLogo} alt="logo" />
-              )
-            ) : (
-              <img ref={lr} src={appData.lightLogo} alt="logo" />
-            )}
-          </a>
+        <a className="logo">
+          <img ref={lr} src={appData.darkLogo} alt="logo"/>
+        </a>
+          
         </Link>
 
         <button
