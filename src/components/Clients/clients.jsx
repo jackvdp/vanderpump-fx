@@ -100,7 +100,9 @@ const Clients = ({theme}) => {
                         )}
                         <Split>
                           <a
-                            href="#0"
+                            href={"https://www." + item.url}
+                            target="_blank" 
+                            rel="noopener noreferrer"
                             className="link words chars splitting"
                             data-splitting
                           >
