@@ -2,7 +2,7 @@ import React from "react";
 import blog3Data from "../data/blog3.json";
 import DarkTheme from "../layouts/Dark";
 import Navbar from "../components/Navbar/navbar";
-import BlogDetails from "../components/Blog-details/fxservices";
+import BlogDetails from "../components/Blog-details/security";
 import PageHeader from "../components/Page-header/page-header";
 import Footer from "../components/Footer/footer";
 
@@ -36,8 +36,8 @@ const BlogDetailsDark = () => {
       </div>
       <Navbar nr={navbarRef} lr={logoRef} />
       <PageHeader
-        title="FX Services"
-        paragraph="Effortless international payments with wholesale rates and expert analysis."
+        title="Security"
+        paragraph="Vanderpump FX Ensures Secure International Payments with Equals Money."
       />
       <BlogDetails blog={"blog"} />
       <Footer />

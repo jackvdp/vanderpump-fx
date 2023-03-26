@@ -19,7 +19,7 @@
     },
     {
         "id": 4,
-        "icon": "pe-7s-door-lock",
+        "icon": "pe-7s-piggy",
         "title": "Window Forwards",
         "content": "When you need currency over a certain amount of time you can book a bulk amount at today’s rate and pay for it as and when you need to send/receive currency."
     },
@@ -28,5 +28,11 @@
         "icon": "pe-7s-clock",
         "title": "Timing of Trades",
         "content": "Our experienced traders at Vanderpump FX provide our clients with key market analysis, enabling them to save a further 2-3% on average by acting when the market is in their favour. Our online platform has received backing from Google Ventures, which recently invested over £4 million in our payment technology, enabling us to create the easiest and most efficient way of dealing with international payments."
+    },
+    {
+        "id": 6,
+        "icon": "pe-7s-diamond",
+        "title": "Partners, Affiliates, and IBs",
+        "content": "We offer our partners, affiliates, and IBs the opportunity to earn commission on every transaction made with Vanderpump FX and generate an extra revenue stream either for themselves or their business. We keep in regular contact and update our partners on the status of their referrals. Our affiliation scheme pays affiliates on a cost-per-acquisition basis, and we treat our affiliates the same as clients, offering our full support and contact to maintain a good relationship."
     }
 ]

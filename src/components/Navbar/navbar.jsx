@@ -42,23 +42,23 @@ const Navbar = ({ lr, nr, theme }) => {
             {/* FX Services */}
 
             <li className="nav-item">
-              <Link href={`/fxservices`}>
-                <a className="nav-link">FX Services</a>
+              <Link href={`/services`}>
+                <a className="nav-link">Services</a>
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link href={`/security`}>
+                <a className="nav-link">Security</a>
               </Link>
             </li>
 
             {/* Other Services */}
 
-            <li className="nav-item">
-              <Link href={`/about`}>
-                <a className="nav-link">Other Services</a>
-              </Link>
-            </li>
-
             {/* Open an Account */}
 
             <li className="nav-item">
-              <Link href={`/about`}>
+              <Link href={`/account`}>
                 <a className="nav-link">Open an Account</a>
               </Link>
             </li>
