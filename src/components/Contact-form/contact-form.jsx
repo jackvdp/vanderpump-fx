@@ -97,7 +97,7 @@ const ContactForm = () => {
               </h3>
               <div className="item mb-40">
                 <h5>
-                  <a href="#0">{ContactFromDate.email}</a>
+                  <a href="mailto:info@vanderpumpfx.com">{ContactFromDate.email}</a>
                 </h5>
                 <h5>{ContactFromDate.phone}</h5>
               </div>
@@ -105,13 +105,13 @@ const ContactForm = () => {
                 Visit Us.
               </h3>
               <div className="item">
-                <h6>
+                <h5>
                   {ContactFromDate.location.first}
                   <br />
                   {ContactFromDate.location.second}
                   <br />
                   {ContactFromDate.location.third}
-                </h6>
+                </h5>
               </div>
             </div>
           </div>
