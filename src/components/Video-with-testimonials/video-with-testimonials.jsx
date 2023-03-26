@@ -62,7 +62,7 @@ const VideoWithTestimonials = () => {
                   </div>
                   <div className="item">
                     <p>
-                    Having worked with Vanderpump FX for years, we wouldn’t go anywhere else for the FX requirements of our lending business. We use Vanderpump FX to disburse loans to our clients in EUR and USD in many countries around the world. The service is always fast and personal, and over the years we’ve saved a small fortune by not making these transactions through our bank as we were before.
+                    Having worked with Vanderpump FX for years, we wouldn’t go anywhere else for the FX requirements of our lending business. The service is always fast and personal, and over the years we’ve saved a small fortune.
                     </p>
                     <div>
                       <div className="cont">

@@ -121,7 +121,11 @@ const IntroWithSlider = ({ sliderRef }) => {
         <div ref={paginationRef} className="swiper-pagination top botm"></div>
 
         <div className="social-icon">
-          <a href="#0">
+          <a 
+          href="https://www.linkedin.com/company/vanderpump-fx/"
+          target="_blank" 
+          rel="noopener noreferrer"
+          >
             <i className="fab fa-linkedin"></i>
           </a>
         </div>
