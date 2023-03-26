@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "icon": "pe-7s-display1",
+        "title": "Spot Trades",
+        "content": "Use our platform or call through to your relationship manager to book todays rate. We provide our clients with the flexibility of two whole days to send in funds."
+    },
+    {
+        "id": 2,
+        "icon": "pe-7s-cash",
+        "title": "Market Orders",
+        "content": "Set target rates and let our team notify you. Reduce risk with stop losses during volatile markets."
+    },
+    {
+        "id": 3,
+        "icon": "pe-7s-door-lock",
+        "title": "Fixed Forwards",
+        "content": "You can book today’s rate and pay for it up to a whole year later. It would be a specific date you wish."
+    },
+    {
+        "id": 4,
+        "icon": "pe-7s-door-lock",
+        "title": "Window Forwards",
+        "content": "When you need currency over a certain amount of time you can book a bulk amount at today’s rate and pay for it as and when you need to send/receive currency."
+    },
+    {
+        "id": 5,
+        "icon": "pe-7s-clock",
+        "title": "Timing of Trades",
+        "content": "Our experienced traders at Vanderpump FX provide our clients with key market analysis, enabling them to save a further 2-3% on average by acting when the market is in their favour. Our online platform has received backing from Google Ventures, which recently invested over £4 million in our payment technology, enabling us to create the easiest and most efficient way of dealing with international payments."
+    }
+]

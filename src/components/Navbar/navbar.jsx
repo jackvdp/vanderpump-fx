@@ -42,7 +42,7 @@ const Navbar = ({ lr, nr, theme }) => {
             {/* FX Services */}
 
             <li className="nav-item">
-              <Link href={`/about`}>
+              <Link href={`/fxservices`}>
                 <a className="nav-link">FX Services</a>
               </Link>
             </li>

@@ -15,11 +15,11 @@ class MyDocument extends Document {
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta
             name="keywords"
-            content="HTML5 Template Vie onepage themeforest"
+            content="Vanderpump FX foreign exchange"
           />
           <meta
             name="description"
-            content="Vie - Onepage Multi-Purpose HTML5 Template"
+            content="Vanderpump FX – Leading Currency Exchange Brokerage"
           />
           <meta name="author" content="" />
           <link rel="shortcut icon" href="/favicon.png" />
