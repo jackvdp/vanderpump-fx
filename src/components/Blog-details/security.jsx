@@ -40,10 +40,9 @@ const BlogDetails = ({ theme }) => {
 
                       <h6>- Authorised by the Financial Conduct Authority as an E-Money institution.</h6>
                       <h6>– Firm Reference Number : 488396.</h6>
-                      <h6>- Listed on the London Stock Exchange..</h6>
+                      <h6>- Listed on the London Stock Exchange.</h6>
                       <h6>- Trusted by Warner Brothers, HBO, Netflix, Toyota, Universal.</h6>
-                      <h6>- 5 STAR Trust Pilot Rating - https://uk.trustpilot.com/review/equalsconnect.com.</h6>
-
+                      <h6>- 5 STAR Trust Pilot Rating.</h6>
                     </div>
                   </div>
                 </div>
