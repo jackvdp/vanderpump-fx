@@ -10,8 +10,8 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Vie</title>
-        <link rel="icon" href="/img/favicon.ico" />
+        <title>Vanderpump FX – Leading Currency Exchange Brokerage</title>
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <Cursor />
       <LoadingScreen />
