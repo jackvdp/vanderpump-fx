@@ -19,9 +19,9 @@ const ContactForm = () => {
   const sendMessage = (ms) => new Promise((r) => setTimeout(r, ms));
 
   const handleSubmit = (values) => {
-    const serviceID = 'default_service';
+    const serviceID = 'service_3ocychf';
     const templateID = 'template_24yb3xb';
-    const userID = 'emailJSKeys.userID';
+    const userID = emailJSKeys.userID;
 
     emailjs.send(serviceID, templateID, values, userID)
       .then((response) => {
@@ -29,7 +29,7 @@ const ContactForm = () => {
         alert('Email sent successfully!');
       }, (error) => {
         console.log('Email sending failed:', error);
-        alert('Email sending failed. Please try again later.');
+        alert(error);
       });
 
   }
