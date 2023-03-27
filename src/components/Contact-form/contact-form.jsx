@@ -1,6 +1,8 @@
 import React from "react";
 import ContactFromDate from "../../data/sections/form-info.json";
 import { Formik, Form, Field } from "formik";
+import emailjs from 'emailjs-com';
+import emailJSKeys from '../../data/emailjs.json';
 
 const ContactForm = () => {
   const messageRef = React.useRef(null);
@@ -13,7 +15,25 @@ const ContactForm = () => {
     }
     return error;
   }
+
   const sendMessage = (ms) => new Promise((r) => setTimeout(r, ms));
+
+  const handleSubmit = (values) => {
+    const serviceID = 'default_service';
+    const templateID = 'template_24yb3xb';
+    const userID = 'emailJSKeys.userID';
+
+    emailjs.send(serviceID, templateID, values, userID)
+      .then((response) => {
+        console.log('Email sent successfully:', response.status, response.text);
+        alert('Email sent successfully!');
+      }, (error) => {
+        console.log('Email sending failed:', error);
+        alert('Email sending failed. Please try again later.');
+      });
+
+  }
+
   return (
     <section className="contact section-padding">
       <div className="container">
@@ -29,11 +49,17 @@ const ContactForm = () => {
                 }}
                 onSubmit={async (values) => {
                   await sendMessage(500);
-                  alert(JSON.stringify(values, null, 2));
+                  // alert(JSON.stringify(values, null, 2));
                   // show message
 
+                  handleSubmit({
+                    from_name: values.name,
+                    message: values.message,
+                    reply_to: values.email
+                  })
+
                   messageRef.current.innerText =
-                    "Your Message has been successfully sent. I will contact you soon.";
+                    "Your Message has been successfully sent. We will contact you soon.";
                   // Reset the values
                   values.name = "";
                   values.email = "";
@@ -97,7 +123,7 @@ const ContactForm = () => {
               </h3>
               <div className="item mb-40">
                 <h5>
-                  <a href="mailto:info@vanderpumpfx.com">{ContactFromDate.email}</a>
+                  <a className="emailLink" href="mailto:info@vanderpumpfx.com">{ContactFromDate.email}</a>
                 </h5>
                 <h5>{ContactFromDate.phone}</h5>
               </div>
