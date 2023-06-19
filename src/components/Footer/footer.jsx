@@ -82,13 +82,13 @@ const Disclaimer = () => {
       Access a borrowing capacity of up to £3 million and enjoy extended payment terms, with the flexibility to repay Ebury after 150 days, effectively reducing your liquidity requirements.
       </p>
       <p>
-      Benefit from a pay-as-you-go model, where you won't encounter any upfront or hidden fees. This means you can utilize the facility whenever you need it without incurring unnecessary expenses.
+      Benefit from a pay-as-you-go model, where you will not encounter any upfront or hidden fees. This means you can utilize the facility whenever you need it without incurring unnecessary expenses.
       </p>
       <p>
       Rest assured that Ebury does not require collateral, ensuring that your existing credit lines remain unaffected.
       </p>
       <p>
-      Here's how trade finance works for importers:
+      Here is how trade finance works for importers:
       </p>
       <ol style={{ opacity: 0.5 }} >
         <li>
