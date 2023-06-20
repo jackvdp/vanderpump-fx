@@ -76,36 +76,19 @@ const Disclaimer = () => {
   return(
     <div style={{ paddingTop: '100px', opacity: 0.5 }}>
       <p>
-      Trade Finance Ebury enables you to optimize your cash flow and bridge the gap by offering early payment to your suppliers.
+      Vanderpump FX’s Payment and Foreign Currency Exchange Services are provided by Ebury Partners UK Limited.
       </p>
       <p>
-      Access a borrowing capacity of up to £3 million and enjoy extended payment terms, with the flexibility to repay Ebury after 150 days, effectively reducing your liquidity requirements.
+      Vanderpump FX is partnered with Ebury Partners UK Limited as a Programme Manager.
       </p>
       <p>
       Benefit from a pay-as-you-go model, where you will not encounter any upfront or hidden fees. This means you can utilize the facility whenever you need it without incurring unnecessary expenses.
       </p>
       <p>
-      Rest assured that Ebury does not require collateral, ensuring that your existing credit lines remain unaffected.
+      Ebury Partners UK Limited is authorised and regulated by the Financial Conduct Authority as an Electronic Money Institution (Financial Services Register No. 900797).
       </p>
       <p>
-      Here is how trade finance works for importers:
-      </p>
-      <ol style={{ opacity: 0.5 }} >
-        <li>
-        1. Receive an invoice from your supplier.
-        </li>
-        <li>
-        2. Forward the invoice to Ebury, who will pay your supplier in their local currency.
-        </li>
-        <li>
-        3. Carry out the sale of your goods or services.
-        </li>
-        <li>
-        4. Repay Ebury in your domestic currency up to 150 days later.
-        </li>
-      </ol>
-      <p>
-      By paying your supplier in their local currency and repaying in yours, you can avoid risks associated with currency fluctuations and reduce costs. Paying your suppliers earlier improves your supplier relationships and allows you to negotiate discounts. Trade finance helps you align your expenses with your income, providing greater control over your finances.
+      Ebury Partners UK Limited is registered with the information Commissioner’s Office, with registration number: ZA345828.
       </p>
     </div>
   )
