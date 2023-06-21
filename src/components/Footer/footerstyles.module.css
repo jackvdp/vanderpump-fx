@@ -1,0 +1,6 @@
+/* styles.module.css */
+
+.myDiv p {
+    font-size: 12px; /* Adjust the value as needed */
+    padding-bottom: 10px;
+  }

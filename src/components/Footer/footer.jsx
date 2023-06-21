@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import Link from "next/link";
 import appData from "../../data/app.json";
+import styles from "./footerstyles.module.css"
 
 const Footer = ({ hideBGCOLOR }) => {
   return (
@@ -74,21 +74,21 @@ export default Footer;
 
 const Disclaimer = () => {
   return(
-    <div style={{ paddingTop: '100px', opacity: 0.5 }}>
+    <div className={styles.myDiv} style={{ paddingTop: '100px', opacity: 0.5, textAlign: "center" }}>
       <p>
-      Vanderpump FX’s Payment and Foreign Currency Exchange Services are provided by Ebury Partners UK Limited.
+      Vanderpump FX has meticulously chosen top-notch fintech and foreign exchange partners to ensure our clients receive regulated services and products of the highest quality:
       </p>
       <p>
-      Vanderpump FX is partnered with Ebury Partners UK Limited as a Programme Manager.
+      Vanderpump FX Limited’s Payment and Foreign Currency Exchange Services are provided by Ebury Partners UK Limited. Vanderpump FX Limited is partnered with Ebury Partners UK Limited as a Programme Manager. Ebury Partners UK Limited is authorised and regulated by the Financial Conduct Authority as an Electronic Money Institution (Financial Services Register No. 900797). Ebury Partners UK Ltd is registered with the Information Commissioner’s Office, with registration number: ZA345828.
       </p>
       <p>
-      Benefit from a pay-as-you-go model, where you will not encounter any upfront or hidden fees. This means you can utilize the facility whenever you need it without incurring unnecessary expenses.
+      Payment Services are provided by Equals Connect Limited, registered in England and Wales (registered no. 07131446). Registered Office: Vintners’ Place, 68 Upper Thames St, London, EC4V 3BJ. Equals Connect Limited are authorised by the Financial Conduct Authority to provide payment services (FRN: 671508).
       </p>
       <p>
-      Ebury Partners UK Limited is authorised and regulated by the Financial Conduct Authority as an Electronic Money Institution (Financial Services Register No. 900797).
+      All testimonials, reviews, opinions or case studies presented on our website may not be indicative of all customers.
       </p>
       <p>
-      Ebury Partners UK Limited is registered with the information Commissioner’s Office, with registration number: ZA345828.
+      Vanderpump FX Limited is a company registered in England and Wales (number 13485907). Foreign exchange services are provided by ALT21 Limited which is authorised and regulated by the Financial Conduct Authority (firm reference number 783837) and is a company registered in England and Wales (number 10723112). The registered address is 45 Eagle Street, London WC1R 4FS, United Kingdom.
       </p>
     </div>
   )
